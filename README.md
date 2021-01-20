@@ -9,9 +9,9 @@ composer require imumz/nova-copy-field
 ### Usage
 
 ```
-use Imumz\CopyFieldValues\CopyFieldValues;
+use Imumz\NovaCopyField\NovaCopyField;
 ...
-CopyFieldValues::make('Copy Fields from Residential')
+NovaCopyField::make('Copy Fields from Residential')
   ->copyFromTo([
   'field_to_copy' => 'field_to_paste',
   'field_to_copy_2' => 'field_to_paste_2',
