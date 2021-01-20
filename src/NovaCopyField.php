@@ -1,6 +1,6 @@
 <?php
 
-namespace Otrsw\NovaCopyField;
+namespace Imumz\NovaCopyField;
 
 use Laravel\Nova\Fields\Field;
 

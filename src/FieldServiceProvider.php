@@ -1,6 +1,6 @@
 <?php
 
-namespace Otrsw\NovaCopyField;
+namespace Imumz\NovaCopyField;
 
 use Illuminate\Support\ServiceProvider;
 use Laravel\Nova\Events\ServingNova;
