@@ -1,5 +1,5 @@
 {
-    "name": "otrsw/nova-copy-field",
+    "name": "imumz/nova-copy-field",
     "description": "A Laravel Nova field.",
     "keywords": [
         "laravel",
@@ -11,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Otrsw\\NovaCopyField\\": "src/"
+            "Imumz\\NovaCopyField\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Otrsw\\NovaCopyField\\FieldServiceProvider"
+                "Imumz\\NovaCopyField\\FieldServiceProvider"
             ]
         }
     },
