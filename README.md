@@ -4,12 +4,12 @@ Custom Laravel Nova copy field
 ### Installation
 
 ```
-composer require otrsw/nova-copy-field
+composer require imumz/nova-copy-field
 ```
 ### Usage
 
 ```
-use Otrsw\CopyFieldValues\CopyFieldValues;
+use Imumz\CopyFieldValues\CopyFieldValues;
 ...
 CopyFieldValues::make('Copy Fields from Residential')
   ->copyFromTo([
