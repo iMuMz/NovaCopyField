@@ -20,5 +20,13 @@ NovaCopyField::make('Copy')
     'field_to_copy_5' => 'field_to_paste_5',
   ])
 ```
+### Example
+
+```php
+NovaCopyField::make('Copy Fields')
+  ->copyFromTo([
+    'name' => 'email',
+  ])
+```
 
 ![image](https://user-images.githubusercontent.com/22936672/105143445-8c7e0d00-5b04-11eb-956e-0412b6a6d4a9.png)
